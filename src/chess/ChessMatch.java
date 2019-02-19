@@ -48,7 +48,7 @@ public class ChessMatch {
         }
         
         if(!board.piece(position).isThereAnyPossibleMove()){
-            throw new ChessEception("There is no possible moves")
+            throw new ChessException("There is no possible moves");
         }
     }
     
